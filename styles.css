@@ -1,6 +1,7 @@
 img {
-    height: 80vh;
-    max-width: 80hw;
+    height: auto;
+    max-width: 80vw;
+    max-height: 80vh;
     margin-bottom: 10px;
 }
 
