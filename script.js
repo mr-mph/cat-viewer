@@ -9,7 +9,6 @@ async function nextCatImage() {
     const image_url = await image[0].url
     cats.push(cat_image_el.src);
     cat_image_el.src = image_url;
-    console.log(cats);
     if (cats.length > 1) {
         previous_button_el.disabled = false;
     }
@@ -19,7 +18,6 @@ async function nextCatImage() {
 async function lastCatImage() {
     if (cats.length > 1) {
         cat_image_el.src = cats.pop();
-        console.log(cats)
         if (cats.length <= 1) {
             previous_button_el.disabled = true;
         }
