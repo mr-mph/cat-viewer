@@ -27,7 +27,6 @@ async function lastCatImage() {
 
 nextCatImage();
 
-
 next_button_el.addEventListener('click', nextCatImage);
 previous_button_el.addEventListener('click', lastCatImage);
 
@@ -40,5 +39,3 @@ document.addEventListener('keydown', function(e) {
     }
 
 });
-
-
