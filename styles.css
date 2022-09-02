@@ -1,0 +1,33 @@
+img {
+    height: 80vh;
+    max-width: 80hw;
+    margin-bottom: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 5px;
+    width: 50%;
+}
+
+#next {
+    margin: 0 10px;
+}
